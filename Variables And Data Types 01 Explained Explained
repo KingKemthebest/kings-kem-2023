@@ -1,4 +1,4 @@
-# variable = a reusable container for storing a value
+# a symbolic name that is a reference or pointer to an objecta symbolic name that is a reference or pointer to an object
 #                   a variable behaves as if it were the value it contains
 
 # INTEGER
