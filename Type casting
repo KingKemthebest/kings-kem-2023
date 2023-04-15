@@ -1,0 +1,37 @@
+Type casting, also known as type conversion, is the process of converting one data type into another data type in Python.
+
+In Python, there are several built-in functions that can be used for type casting. Here are some examples:
+
+int() - This function is used to convert a value to an integer data type.
+float() - This function is used to convert a value to a floating-point data type.
+str() - This function is used to convert a value to a string data type.
+bool() - This function is used to convert a value to a Boolean data type.
+Here's an example of using type casting in Python:
+
+
+# Converting a string to an integer
+string_number = "123"
+integer_number = int(string_number)
+print(integer_number)   # Output: 123
+
+# Converting a float to an integer
+float_number = 3.14
+integer_number = int(float_number)
+print(integer_number)   # Output: 3
+
+# Converting an integer to a string
+integer_number = 123
+string_number = str(integer_number)
+print(string_number)    # Output: "123"
+
+# Converting a non-zero value to a boolean
+some_value = 10
+boolean_value = bool(some_value)
+print(boolean_value)    # Output: True
+
+# Converting a zero value to a boolean
+zero_value = 0
+boolean_value = bool(zero_value)
+print(boolean_value)    # Output: False
+Note that not all type conversions are possible in Python. For example, you cannot convert a string that contains non-numeric characters to an integer or float.
+In such cases, a ValueError will be raised.
