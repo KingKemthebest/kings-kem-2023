@@ -1,0 +1,44 @@
+In Python, break, continue, and pass are used to control the flow of execution in loops and conditional statements.
+
+break is used to exit from a loop prematurely. When break is encountered in a loop, the loop is immediately terminated,
+and control is passed to the next statement after the loop.
+Here's an example of using break in a while loop:
+
+i = 0
+while i < 5:
+    if i == 3:
+        break
+    print(i)
+    i += 1
+Output:
+
+0
+1
+2
+In the above example, the loop is terminated when i becomes 3, because the break statement is executed when i is equal to 3.
+
+continue is used to skip the rest of the current iteration of a loop and move on to the next iteration. When continue is encountered in a loop,
+the remaining statements in the loop are skipped, and control goes back to the beginning of the loop.
+Here's an example of using continue in a for loop:
+
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+Output:
+
+0
+1
+2
+4
+In the above example, the value of i is not printed when i is equal to 3, because the continue statement is executed,
+and the loop immediately moves on to the next iteration.
+
+pass is used as a placeholder when you want to do nothing in a block of code.
+It is often used when you want to write code that will eventually do something, but you don't know what that something is yet.
+Here's an example of using pass:
+
+def my_function():
+    pass
+In the above example, the my_function does nothing because it contains only a pass statement.
+This is useful when you want to create a function placeholder that you will fill in later.
