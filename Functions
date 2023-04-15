@@ -1,0 +1,31 @@
+In Python, a function is a block of code that performs a specific task. Functions in Python are used to make the code modular, reusable, and easier to read.
+A function can take input parameters, process them, and then return the output.
+
+Here's an example of a simple function in Python:
+
+def greet(name):
+    print("Hello, " + name + ". How are you?")
+In this example, we define a function called greet that takes one parameter called name. The function then prints a greeting message with the name provided.
+
+To use this function, we can call it with an argument like this:
+
+greet("John")
+This will output:
+
+
+Hello, John. How are you?
+In addition to input parameters, functions can also have output values using the return statement. For example:
+
+
+def add_numbers(a, b):
+    result = a + b
+    return result
+This function takes two input parameters a and b, adds them together, and then returns the result. We can call this function like this:
+
+sum = add_numbers(5, 3)
+print(sum)
+This will output:
+
+8
+Functions can also have default parameter values and variable-length arguments.
+Python has many built-in functions, but you can also define your own functions to perform specific tasks in your code.
