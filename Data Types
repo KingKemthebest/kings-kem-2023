@@ -1,0 +1,89 @@
+In Python, there are several built-in data types that are used to represent different kinds of values:
+
+Numbers: In Python, there are three numeric types: int, float, and complex. Integers (int) are whole numbers without a decimal point, floating-point numbers (float) are real numbers with a decimal point, and complex numbers (complex) are represented as a pair of real numbers.
+
+Strings: A string is a sequence of characters enclosed in single or double quotes. Python treats strings as immutable objects, which means that once a string is created, it cannot be changed.
+
+Boolean: A boolean is a value that represents either True or False. Booleans are used in Python for logical operations, such as and, or, and not.
+
+Lists: A list is a collection of items that can be of different data types. Lists are created using square brackets [] and separated by commas.
+
+Tuples: A tuple is similar to a list but is immutable. Tuples are created using parentheses () and separated by commas.
+
+Sets: A set is an unordered collection of unique elements. Sets are created using curly braces {} or using the set() function.
+
+Dictionaries: A dictionary is a collection of key-value pairs. Dictionaries are created using curly braces {} and separating each key-value pair with a colon :.
+
+Python also allows users to create their own custom data types using classes and objects.
+
+Numbers
+
+# int
+x = 5
+y = -10
+
+# float
+pi = 3.14
+e = 2.718
+
+# complex
+z = 3 + 4j
+
+String
+
+name = "Alice"
+message = 'Hello, World!'
+
+# String concatenation
+greeting = name + ": " + message
+
+Boolean
+
+is_raining = True
+is_sunny = False
+
+# Boolean operators
+is_nice_weather = is_sunny and not is_raining
+
+Lists
+
+fruits = ['apple', 'banana', 'orange']
+numbers = [1, 2, 3, 4, 5]
+
+# Accessing list elements
+first_fruit = fruits[0]
+second_number = numbers[1]
+
+# Adding elements to a list
+fruits.append('kiwi')
+
+Tuples
+
+person = ('Alice', 25, 'Female')
+
+# Accessing tuple elements
+name = person[0]
+age = person[1]
+
+Sets
+
+prime_numbers = {2, 3, 5, 7, 11}
+
+# Set operations
+odd_numbers = {1, 3, 5, 7, 9}
+even_numbers = {2, 4, 6, 8, 10}
+
+all_numbers = odd_numbers.union(even_numbers)
+
+Dictionaries
+
+person = {'name': 'Alice', 'age': 25, 'gender': 'Female'}
+
+# Accessing dictionary values
+name = person['name']
+age = person['age']
+
+# Adding values to a dictionary
+person['city'] = 'New York'
+
+
