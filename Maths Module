@@ -1,0 +1,23 @@
+In Python, a function is a block of reusable code that performs a specific task.
+A math function is a built-in function in Python's math module that performs mathematical operations. Here are some commonly used math functions in Python:
+
+abs(x): Returns the absolute value of a number.
+round(x, n): Rounds a number to a specified number of decimal places.
+pow(x, y): Raises x to the power of y.
+sqrt(x): Returns the square root of a number.
+log(x): Returns the natural logarithm (base e) of a number.
+log10(x): Returns the base-10 logarithm of a number.
+exp(x): Returns e raised to the power of x.
+sin(x): Returns the sine of a number in radians.
+cos(x): Returns the cosine of a number in radians.
+tan(x): Returns the tangent of a number in radians.
+To use these functions, you first need to import the math module using the import keyword. For example, to use the sin function, you would write:
+
+python
+Copy code
+import math
+
+x = 1.0
+y = math.sin(x)
+print(y)
+This code would print the sine of 1.0 radians to the console. Note that the math module must be imported before the functions can be used.
