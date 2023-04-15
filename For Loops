@@ -1,0 +1,53 @@
+In Python, a for loop is a way to iterate over a sequence of items, such as a list, tuple, or string, and execute a block of code for each item in the sequence.
+
+Here is the basic syntax for a for loop in Python:
+
+for item in sequence:
+    # code to be executed for each item
+In this example, item is a variable that will take on the value of each item in the sequence for each iteration of the loop.
+The indented block of code following the for statement will be executed once for each item in the sequence.
+
+Here is an example that demonstrates how to use a for loop to iterate over a list of numbers and print each one:
+
+python
+Copy code
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    print(num)
+Output:
+
+1
+2
+3
+4
+5
+You can also use the range() function to generate a sequence of numbers to iterate over.
+For example, to iterate over the numbers from 1 to 10, you can use the following code:
+
+python
+Copy code
+for num in range(1, 11):
+    print(num)
+Output:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+You can also use a for loop with a conditional statement to filter the items in a sequence.
+For example, to print only the even numbers from a list of numbers, you can use the following code:
+
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    if num % 2 == 0:
+        print(num)
+Output:
+
+2
+4
