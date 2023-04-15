@@ -1,0 +1,29 @@
+In Python, a variable is a named reference to a value or object stored in memory. When you create a variable, you are essentially reserving a space in the computer's memory to hold the value or object that you assign to it.
+
+To create a variable in Python, you simply assign a value or object to a name using the = operator. For example:
+
+
+my_variable = 42
+In this example, my_variable is the name of the variable, and 42 is the value that it holds. You can then use the variable in your code by referring to its name:
+
+print(my_variable)
+This will output 42 to the console.
+
+Variables in Python are dynamically typed, which means that you do not need to specify the type of the variable when you create it. Python will automatically assign the appropriate type based on the value or object that you assign to the variable.
+
+For example, if you assign a string to a variable:
+
+my_string = "Hello, World!"
+Python will automatically assign the string type to my_string.
+
+You can also change the value or object assigned to a variable at any time by simply assigning a new value or object to the same variable name:
+
+my_variable = 42
+my_variable = "Hello, World!"
+In this example, my_variable is first assigned the value 42, and then it is reassigned to the string "Hello, World!".
+
+It is important to keep in mind that variables in Python are references to objects in memory, rather than the objects themselves. This means that when you assign a variable to another variable, you are actually creating a new reference to the same object in memory:
+
+x = [1, 2, 3]
+y = x
+In this example, y is not a new list, but rather a reference to the same list that x refers to. Any changes made to y will also affect x, and vice versa.
