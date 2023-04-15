@@ -1,0 +1,13 @@
+In Python, user input is a way of getting information from a user through the keyboard.
+It is a built-in function called input(). The input() function waits for the user to type some text and press the "Enter" key.
+Once the user presses "Enter," the text they typed is returned as a string.
+
+Here is an example of using the input() function to get the user's name:
+
+name = input("What is your name? ")
+print("Hello, " + name + "!")
+In this example, the input() function displays the message "What is your name?" to the user and waits for them to type their name.
+Once they press "Enter," the name variable is assigned the value of the text they typed, and then a greeting message is displayed using the print() function.
+
+Note that the input() function always returns a string, so if you need to perform calculations or comparisons with the user's input, you may need to convert it
+to the appropriate data type using functions like int() or float().
