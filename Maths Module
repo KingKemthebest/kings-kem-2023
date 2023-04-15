@@ -13,8 +13,6 @@ cos(x): Returns the cosine of a number in radians.
 tan(x): Returns the tangent of a number in radians.
 To use these functions, you first need to import the math module using the import keyword. For example, to use the sin function, you would write:
 
-python
-Copy code
 import math
 
 x = 1.0
