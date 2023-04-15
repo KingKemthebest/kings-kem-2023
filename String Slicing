@@ -1,0 +1,22 @@
+In Python, string slicing is a method of extracting a portion (a substring) of a string by specifying a range of indices.
+
+The syntax for string slicing is as follows:
+
+string[start:end:step]
+start represents the starting index (inclusive) of the slice. If omitted, the slice starts from the beginning of the string (i.e., index 0).
+end represents the ending index (exclusive) of the slice. If omitted, the slice ends at the end of the string (i.e., the index of the last character + 1).
+step represents the step size (i.e., the number of characters to skip between each character in the slice). If omitted, the default value is 1.
+Here are some examples:
+
+# create a string
+s = "Hello, World!"
+
+# extract the first 5 characters
+print(s[:5])   # output: "Hello"
+
+# extract the 7th to the 12th character
+print(s[7:13]) # output: "World!"
+
+# extract every other character
+print(s[::2])  # output: "Hlo ol!"
+Note that string slicing does not modify the original string; it creates a new string that contains the extracted substring.
