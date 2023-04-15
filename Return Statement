@@ -1,0 +1,29 @@
+In Python, a return statement is used to return a value from a function.
+When a return statement is executed, the function immediately exits, and any subsequent code in the function is not executed.
+
+Here's an example of a function that returns the sum of two numbers:
+
+def add_numbers(x, y):
+    sum = x + y
+    return sum
+In this example, the return statement is used to return the value of sum back to the calling code.
+
+You can also use return statement without a value to exit a function early. For example, consider the following function that checks if a number is even:
+
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+In this example, if the number is even, the function immediately returns True using the return statement. If the number is odd, it returns False.
+
+You can also use the return statement to return multiple values from a function as a tuple. Here's an example:
+
+def get_name_and_age():
+    name = "John"
+    age = 25
+    return name, age
+In this example, the function returns a tuple containing the name and age variables. The calling code can then unpack the tuple to access these values separately.
+
+
+
