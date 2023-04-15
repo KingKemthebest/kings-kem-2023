@@ -1,0 +1,24 @@
+In Python, nested loops refer to the situation where one loop is present inside another loop.
+This allows you to execute a set of instructions multiple times for each iteration of the outer loop.
+
+Here is an example of nested loops in Python:
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+In this example, we have two loops. The outer loop runs three times because range(1, 4) generates the numbers 1, 2, and 3.
+The inner loop also runs three times for each iteration of the outer loop, because range(1, 4) generates the numbers 1, 2, and 3. So,
+the output of this code will be:
+
+1 1
+1 2
+1 3
+2 1
+2 2
+2 3
+3 1
+3 2
+3 3
+As you can see, the inner loop is executed three times for each iteration of the outer loop,
+resulting in nine total iterations. Nested loops are a powerful tool for iterating over complex data structures,
+such as lists of lists or matrices, and can be used to perform a wide variety of tasks in Python programming.
