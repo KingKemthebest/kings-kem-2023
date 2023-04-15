@@ -1,0 +1,31 @@
+In Python, logical operators are used to evaluate Boolean expressions.
+They are used to combine two or more conditions or values to produce a single Boolean value (either True or False) based on the truth values of the operands.
+The following are the logical operators in Python:
+
+and: The and operator returns True if both operands are true, otherwise it returns False.
+Example:
+
+x = 5
+y = 10
+if x > 0 and y < 15:
+    print("Both conditions are true")
+or: The or operator returns True if at least one of the operands is true, otherwise it returns False.
+Example:
+
+x = 5
+y = 10
+if x > 0 or y > 15:
+    print("At least one condition is true")
+not: The not operator is a unary operator that returns the opposite of the Boolean value of its operand.
+If the operand is True, not returns False, and if the operand is False, not returns True.
+Example:
+
+python
+Copy code
+x = 5
+y = 10
+if not(x < y):
+    print("x is not less than y")
+Note that the logical operators and and or use short-circuit evaluation.
+That means that if the value of the first operand is enough to determine the result of the operation, the second operand is not evaluated.
+This can be useful for optimizing code and avoiding unnecessary computations.
